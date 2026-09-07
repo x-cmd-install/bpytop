@@ -5,7 +5,7 @@ about:
   head: 2034232
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T06:08:20Z
+  collectedAt: 2026-09-07T18:22:26Z
 timeline:
   created: 2020-07-01
   lastCommit: 2025-06-01
@@ -80,7 +80,7 @@ total:
   commit: 409
 ---
 path: /home/runner/.x-repo/github.com/aristocratos/bpytop
-collectedAt: 2026-09-07T06:08:21Z
+collectedAt: 2026-09-07T18:22:27Z
 loc:
   Python:
     code: 5286
@@ -197,7 +197,7 @@ checks:
       - 'Warn: 0 commits out of 15 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:08:22+00:00
+  collectedAt: 2026-09-07T18:22:27+00:00
   platform:
     darwin/arm64:
       name:  null
