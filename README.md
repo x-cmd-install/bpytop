@@ -1,6 +1,24 @@
----
-owner-repo: aristocratos/bpytop
-desc:   Linux/OSX/FreeBSD resource monitor 
----
-
 # bpytop
+
+Linux/OSX/FreeBSD resource monitor
+
+- **Upstream**: <https://github.com/aristocratos/bpytop>
+- **Homepage**: <>
+- **Latest release**: `` (n/a)
+- **Last commit**: 2025-06-01
+- **License**: Apache-2.0
+- **Stars**: 10931 · **Forks**: 423 · **Open issues**: 321 · **Contributors**: 32
+
+## Installation
+
+```sh
+x install bpytop
+```
+
+See <https://x-cmd.com/install/bpytop> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T12:32:11Z._
