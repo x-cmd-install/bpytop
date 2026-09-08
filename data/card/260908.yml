@@ -5,7 +5,7 @@ about:
   head: 2034232
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-08T03:28:19Z
+  collectedAt: 2026-09-08T06:13:04Z
 timeline:
   created: 2020-07-01
   lastCommit: 2025-06-01
@@ -80,7 +80,7 @@ total:
   commit: 409
 ---
 path: /home/runner/.x-repo/github.com/aristocratos/bpytop
-collectedAt: 2026-09-08T03:28:20Z
+collectedAt: 2026-09-08T06:13:06Z
 loc:
   Python:
     code: 5286
