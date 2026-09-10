@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T06:25:23Z
+  collectedAt: 2026-09-10T20:38:57Z
 timeline:
   created: 2020-07-01
   lastCommit: 2025-06-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 10929
+  star: 10930
   watcher: 154
   fork: 422
   release: 0
@@ -84,7 +84,7 @@ total:
   commit: 409
 ---
 path: /home/runner/.x-repo/github.com/aristocratos/bpytop
-collectedAt: 2026-09-10T06:25:24Z
+collectedAt: 2026-09-10T20:38:58Z
 loc:
   Python:
     code: 5286
