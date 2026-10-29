@@ -1,37 +1,17 @@
-- repo: ptxdist
+- repo: homebrew
   srcname: bpytop
-  visiblename: bpytop
-  version: 1.0.26
-  origversion: null
-  status: outdated
-  licenses:
-    - Apache-2.0
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
-  version: 1.0.61
-  origversion: 1.0.61-1
-  status: outdated
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: bpytop
-  binnames:
-    - bpytop
   visiblename: bpytop
   version: 1.0.68
-  origversion: 1.0.68-2
+  origversion: null
   status: newest
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - utils
+  summary: Linux/OSX/FreeBSD resource monitor
+- repo: homebrew
+  srcname: bpytop
+  visiblename: bpytop
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Linux/OSX/FreeBSD resource monitor
 - repo: alt_p11
   srcname: bpytop
   binnames:
@@ -289,20 +269,6 @@
   origversion: null
   status: newest
   summary: Resource monitor
-- repo: homebrew
-  srcname: bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: null
-  status: newest
-  summary: Linux/OSX/FreeBSD resource monitor
-- repo: homebrew
-  srcname: bpytop
-  visiblename: bpytop
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Linux/OSX/FreeBSD resource monitor
 - repo: kali_rolling
   subrepo: main
   srcname: bpytop
@@ -472,6 +438,40 @@
     - daissi@debian.org
   categories:
     - misc
+- repo: ptxdist
+  srcname: bpytop
+  visiblename: bpytop
+  version: 1.0.26
+  origversion: null
+  status: outdated
+  licenses:
+    - Apache-2.0
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.61
+  origversion: 1.0.61-1
+  status: outdated
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2
+  status: newest
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - utils
 - repo: pypi
   srcname: bpytop
   binname: bpytop
