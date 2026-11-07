@@ -1,54 +1,9 @@
-- repo: parrot
-  subrepo: parrot/main
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68-2
-  status: newest
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - misc
-- repo: pacstall
-  srcname: bpytop-git
-  binname: bpytop-git
-  visiblename: bpytop-git
-  version: "20342329"
-  origversion: 20342329-1
-  status: rolling
-  summary: Linux/OSX/FreeBSD resource monitor.
-- repo: parabola
-  subrepo: extra
-  srcname: bpytop
-  binname: bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68-2
-  status: newest
-  summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
-  licenses:
-    - Apache
-- repo: pardus_21
+- repo: kali_rolling
   subrepo: main
   srcname: bpytop
   binnames:
     - bpytop
   visiblename: bpytop
-  version: 1.0.61
-  origversion: 1.0.61-1
-  status: outdated
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
   version: 1.0.68
   origversion: 1.0.68-2
   status: newest
@@ -56,31 +11,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: bpytop
-  binname: bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68_1
-  status: newest
-  summary: Resource monitor
-  maintainers:
-    - abenson+void@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: mx_21_testing
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68-2~mx21+1
-  status: newest
-  maintainers:
-    - swamprabbit@mxlinux.org
-  categories:
-    - utils
 - repo: alt_p11
   srcname: bpytop
   binnames:
@@ -173,6 +103,19 @@
     - daissi@debian.org
   categories:
     - misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-1
+  status: newest
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - universe/misc
 - repo: debian_14
   subrepo: forky/main
   srcname: bpytop
@@ -352,19 +295,6 @@
   origversion: null
   status: rolling
   summary: Linux/OSX/FreeBSD resource monitor
-- repo: kali_rolling
-  subrepo: main
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68-2
-  status: newest
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: sys-process/bpytop
   visiblename: sys-process/bpytop
@@ -411,7 +341,7 @@
   binname: bpytop
   visiblename: bpytop
   version: 1.0.68
-  origversion: 1.0.68-1
+  origversion: 1.0.68-2
   status: newest
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
   licenses:
@@ -422,7 +352,7 @@
   binname: bpytop
   visiblename: bpytop
   version: 1.0.68
-  origversion: 1.0.68-1
+  origversion: 1.0.68-2
   status: newest
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
   licenses:
@@ -451,6 +381,76 @@
     - swamprabbit@mxlinux.org
   categories:
     - utils
+- repo: mx_21_testing
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2~mx21+1
+  status: newest
+  maintainers:
+    - swamprabbit@mxlinux.org
+  categories:
+    - utils
+- repo: pacstall
+  srcname: bpytop-git
+  binname: bpytop-git
+  visiblename: bpytop-git
+  version: "20342329"
+  origversion: 20342329-1
+  status: rolling
+  summary: Linux/OSX/FreeBSD resource monitor.
+- repo: parabola
+  subrepo: extra
+  srcname: bpytop
+  binname: bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2
+  status: newest
+  summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+  licenses:
+    - Apache
+- repo: pardus_21
+  subrepo: main
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.61
+  origversion: 1.0.61-1
+  status: outdated
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2
+  status: newest
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2
+  status: newest
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - misc
 - repo: ptxdist
   srcname: bpytop
   visiblename: bpytop
@@ -534,19 +534,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: bpytop
-  binnames:
-    - bpytop
-  visiblename: bpytop
-  version: 1.0.68
-  origversion: 1.0.68-1
-  status: newest
-  maintainers:
-    - daissi@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: bpytop
@@ -612,3 +599,29 @@
     - daissi@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: bpytop
+  binnames:
+    - bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68-2build1
+  status: newest
+  maintainers:
+    - daissi@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: bpytop
+  binname: bpytop
+  visiblename: bpytop
+  version: 1.0.68
+  origversion: 1.0.68_1
+  status: newest
+  summary: Resource monitor
+  maintainers:
+    - abenson+void@gmail.com
+  licenses:
+    - Apache-2.0
